@@ -90,6 +90,14 @@ nav .active:hover {
 
 /* CONTENT */
 
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
 .tagline {
     text-align: center;
     margin: 150px 0;
@@ -101,7 +109,7 @@ nav .active:hover {
     width: 100%;
     height: 900px;
     margin: auto;
-    background-image: url("../assets/landing.png");
+    background-image: url("../assets/landing.webp");
 }
 
 .landing-content {
@@ -143,6 +151,18 @@ nav .active:hover {
 .section p {
     text-align: justify;
     font-size: 1.3rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.8rem;
+    font-weight: 300;
 }
 
 /* BUTTONS */
