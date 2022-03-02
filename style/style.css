@@ -1,0 +1,165 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800');
+
+
+body {
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto Slab", serif;
+}
+
+/* COLORS */
+
+.dark {
+    color: rgb(53, 53, 53);
+}
+
+.light-hover {
+    color: rgb(224, 224, 224);
+}
+
+.accent {
+    color: #F0720D; 
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+#nav-content {
+    width: 50%;
+    margin: auto;
+    padding: 1.2rem 0;
+}
+
+#nav-logo-container {
+    display: inline-block;
+    height: 100%;
+}
+
+#nav-logo-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#nav-items-container {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 1.2rem 2rem;
+    padding-bottom: 0.4rem;
+    padding-top: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: 0.3s;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+nav li a:hover {
+    color: #fd9a48;
+}
+
+.active {
+    border-bottom: 3px solid #F0720D;
+}
+
+nav .active:hover {
+    color: white;
+}
+
+/* CONTENT */
+
+.tagline {
+    text-align: center;
+    margin: 150px 0;
+    font-weight: 300;
+}
+
+.landing {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    background-image: url("../assets/landing.png");
+}
+
+.landing-content {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.landing-content div {
+    /* border: 2px solid red; */
+    width: 50%;
+    font-size: 1.5rem; /* 1.5 or 1.7 */
+}
+
+.landing-content h1 {
+    font-weight: 300;
+}
+
+.content-container {
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid blue; */
+}
+
+.section {
+    /* border: 2px solid green; */
+    margin: 150px 0;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section p {
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+/* BUTTONS */
+
+.btn {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.btn:hover {
+    /* background-color: rgb(26, 26, 26); */
+    background-color: #F0720D;
+    color: rgb(241, 241, 241);
+}
