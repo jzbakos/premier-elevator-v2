@@ -198,8 +198,8 @@ footer {
 }
 
 .row img {
-  outline: 8px solid rgb(53, 53, 53);
-  outline-offset: -8px;
+  outline: 5px solid rgb(53, 53, 53);
+  outline-offset: -5px;
   width: 300px;
   height: 400px;
 }
