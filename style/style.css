@@ -43,7 +43,7 @@ nav {
 #nav-content {
   width: 50%;
   margin: auto;
-  padding: 1.3rem 0;
+  padding: 1.2rem 0;
 }
 
 #nav-logo-container {
@@ -78,7 +78,7 @@ nav li a {
   text-align: center;
   margin: 1.1rem 2rem;
   padding-bottom: 0.4rem;
-  padding-top: 1rem;
+  padding-top: 0.6rem;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
@@ -192,7 +192,7 @@ footer {
 }
 
 .row {
-  height: 300px;
+  height: 400px;
   width: 100%;
   margin: 50px 0;
 }
@@ -201,7 +201,7 @@ footer {
   outline: 8px solid rgb(53, 53, 53);
   outline-offset: -8px;
   width: 300px;
-  height: 300px;
+  height: 400px;
 }
 
 .column-left {
