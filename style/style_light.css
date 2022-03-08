@@ -127,7 +127,7 @@ nav .active:hover {
   height: 100vh;
   margin: auto;
   /* background-image: url("../assets/landing.webp"); */
-  background-image: url("../assets/bgtemp.png");
+  background-image: url("../assets/landing.webp");
 }
 
 .landing-content {
